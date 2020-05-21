@@ -1,0 +1,104 @@
+Worker Worker-0001 failed during job 0
+    Traceback (most recent call last):
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 942, in run
+    answer = self.target(*job.args, **job.kwargs)  # call the target function here!!!
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 842, in __call__
+    return self.core(*args, **kwargs)
+      File "get_G.py", line 127, in job_handler
+    raise ValueError(self.theorys[0, 0].datacoder.freqs)
+    ValueError: [0.5        0.46296296 0.42735043 0.39370079 0.36363636 0.33670034
+ 0.31055901 0.28735632 0.26525199 0.24509804 0.22675737 0.20920502
+ 0.1934236  0.17857143 0.1650165  0.15243902 0.14084507 0.13020833
+ 0.12019231 0.11111111]
+
+Worker Worker-0001 failed during job 0
+    Traceback (most recent call last):
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 942, in run
+    answer = self.target(*job.args, **job.kwargs)  # call the target function here!!!
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 842, in __call__
+    return self.core(*args, **kwargs)
+      File "get_G.py", line 133, in job_handler
+    raise
+    TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType
+
+Worker Worker-0001 failed during job 0
+    Traceback (most recent call last):
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 942, in run
+    answer = self.target(*job.args, **job.kwargs)  # call the target function here!!!
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 842, in __call__
+    return self.core(*args, **kwargs)
+      File "get_G.py", line 96, in job_handler
+    theory = Theory(parameterizer=parameterizer, datacoder=datacoder)
+      File "/home/max/prog/git/srfpython/srfpython/HerrMet/theory.py", line 47, in __init__
+    h=h, ddc=ddc)
+      File "/home/max/prog/git/srfpython/srfpython/Herrmann/Herrmann.py", line 411, in __init__
+    raise ValueError(freqs)
+    ValueError: [0.11111111 0.12019231 0.13020833 0.14084507 0.15243902 0.1650165
+ 0.17857143 0.1934236  0.20920502 0.22675737 0.24509804 0.26525199
+ 0.28735632 0.31055901 0.33670034 0.36363636 0.39370079 0.42735043
+ 0.46296296 0.5       ]
+
+Worker Worker-0001 failed during job 0
+    Traceback (most recent call last):
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 942, in run
+    answer = self.target(*job.args, **job.kwargs)  # call the target function here!!!
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 842, in __call__
+    return self.core(*args, **kwargs)
+      File "get_G.py", line 96, in job_handler
+    theory = Theory(parameterizer=parameterizer, datacoder=datacoder)
+      File "/home/max/prog/git/srfpython/srfpython/HerrMet/theory.py", line 51, in __init__
+    assert np.all(self.herrmanncaller.freqs == datacoder.freqs)
+    AssertionError
+
+Worker Worker-0001 failed during job 0
+    Traceback (most recent call last):
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 942, in run
+    answer = self.target(*job.args, **job.kwargs)  # call the target function here!!!
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 842, in __call__
+    return self.core(*args, **kwargs)
+      File "get_G.py", line 96, in job_handler
+    theory = Theory(parameterizer=parameterizer, datacoder=datacoder)
+      File "/home/max/prog/git/srfpython/srfpython/HerrMet/theory.py", line 52, in __init__
+    assert np.all(self.herrmanncaller.freqs == datacoder.freqs)
+    AssertionError
+
+Worker Worker-0002 failed during job 1
+    Traceback (most recent call last):
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 942, in run
+    answer = self.target(*job.args, **job.kwargs)  # call the target function here!!!
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 842, in __call__
+    return self.core(*args, **kwargs)
+      File "get_G.py", line 96, in job_handler
+    theory = Theory(parameterizer=parameterizer, datacoder=datacoder)
+      File "/home/max/prog/git/srfpython/srfpython/HerrMet/theory.py", line 53, in __init__
+    assert np.all(self.herrmanncaller.freqs == datacoder.freqs)
+    AssertionError
+
+Worker Worker-0001 failed during job 0
+    Traceback (most recent call last):
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 942, in run
+    answer = self.target(*job.args, **job.kwargs)  # call the target function here!!!
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 842, in __call__
+    return self.core(*args, **kwargs)
+      File "get_G.py", line 96, in job_handler
+    theory = Theory(parameterizer=parameterizer, datacoder=datacoder)
+      File "/home/max/prog/git/srfpython/srfpython/HerrMet/theory.py", line 47, in __init__
+    h=h, ddc=ddc)
+      File "/home/max/prog/git/srfpython/srfpython/Herrmann/Herrmann.py", line 451, in __init__
+    srfpre96input = self.curves2srfpre96input(curves=curves)
+    TypeError: curves2srfpre96input() got an unexpected keyword argument 'curves'
+
+Worker Worker-0001 failed during job 0
+    Traceback (most recent call last):
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 942, in run
+    answer = self.target(*job.args, **job.kwargs)  # call the target function here!!!
+      File "/home/max/prog/git/srfpython/srfpython/standalone/multipro8.py", line 842, in __call__
+    return self.core(*args, **kwargs)
+      File "get_G.py", line 96, in job_handler
+    theory = Theory(parameterizer=parameterizer, datacoder=datacoder)
+      File "/home/max/prog/git/srfpython/srfpython/HerrMet/theory.py", line 47, in __init__
+    h=h, ddc=ddc)
+      File "/home/max/prog/git/srfpython/srfpython/Herrmann/Herrmann.py", line 456, in __init__
+    srfpre96input = self.wtmf2srfpre96input(waves=self.waves, types=self.types, modes=self.modes, freqs=self.freqs)
+    NameError: global name 'curve' is not defined
+
